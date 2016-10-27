@@ -1,0 +1,33 @@
+body {
+    font: bold 12px Arial;
+     }
+a {
+    text-decoration: none;
+  }
+#map{
+    height:600px; 
+    width:1260px; 
+    box-shadow: 3px 3px 10px gray;
+    }
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 18%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+#floating-panel {
+    background-color: #fff;
+    border: 1px solid #999;
+    left: 18%;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    z-index: 5;
+}

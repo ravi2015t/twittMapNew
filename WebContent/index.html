@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html data-ng-app="apiApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Twitter Heat Map</title>
+<link rel="stylesheet" href="maps.css">
+<script
+  src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+<script
+  src="http://maps.googleapis.com/maps/api/js??key=AIzaSyDLDFpExYhHJTNuGUse60Ngt99bYRMFH7I&
+       sensor=false&language=en&libraries=visualization">
+  </script>
+  <script type="text/javascript" src="maps.js"></script>
+</head>
+<body>
+<div data-ng-controller="ApiCtrl">
+    <div id="floating-panel">
+      <button data-ng-click='getTweets("trump", 0)'>Donald Trump</button>
+      <button data-ng-click='getTweets("sachin", 0)'>Sachin Tendulkar</button>
+      <button data-ng-click='getTweets("nba", 0)'>NBA</button>
+      <button data-ng-click='getTweets("clinton", 0)'>Hillary Clinton</button>
+      <button data-ng-click='getTweets("obama", 0)'>Barak Obama</button>
+      <button data-ng-click='getTweets("arsenal", 0)'>Arsenal</button>
+      <button data-ng-click='getTweets("modi", 0)'>Narendra Modi</button>
+      <button data-ng-click='getTweets("amazon", 0)'>Amazon</button>
+      <button data-ng-click='getTweets("facebook", 0)'>Facebook</button>
+    </div>
+    <div id="map"></div>
+</div>
+</body>
+</html>
