@@ -1,0 +1,3 @@
+I have two services. One daemon running in the background fetching tweets and indexing them in aws elastic search. 
+I have created another request to service user requests. I have written angular js to interface a REST servlet. 
+Properties required needs to be stored in properties file src. 
